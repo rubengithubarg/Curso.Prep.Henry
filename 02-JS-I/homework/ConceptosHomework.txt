@@ -1,0 +1,45 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Variables: Una variable es un lugar donde el programador puedo guardar información, el crea una variable
+e inmediatamente se le asigna una lugar en la memoria y cada vez que le asignemos un valor/información a la variable creada
+este se guardara en el lugar que le teniamos asignada.
+
+String: Un String es un tipo de dato, representa una cadena de caracteres que puede estar compuesta por letras, numeros o ambos esto significa que si
+tengo una variable la programo para que almacene string puedo asignarle un valor/cadena de alfanumerica(numeros y letras).
+
+Funciones: Una función es un programa que contiene un conjunto de instruciones o "pasos a seguir" y cuando el programador 
+invoca una de estas (llama/invoca) se ejecuta paso a paso, instruccion a instruccion hasta terminar. Hay funciones que reciben parametros 
+o valores con los que luego realizara operaciones estas pueden ser matematicas suma o resta por ejemplo y tambien otras mas. cuando una funcion termina
+de ejecutarse yo puedo programarla para que me devuelva un valor si por ejemplo se realiza una operacion de suma puedo pedirle que me devuelva el resultado.
+
+Declaraciones if: If es un condicional , es decir, un una instrucción que permite al programador realizar pruebas.
+Si por ejemplo quiero que mi programa ejecute una acción pero antes quiero saber si se cumple una condicion para luego 
+ejecutarlo entonces utilizo el condicional IF y una vez que se valide la condicion me permitira ejecutar la siguiente opcion
+dentro de mi funcion de prueba. Ejemplo: si quiero saber si una persona es mayor de edad para obtener una licencia de conducir
+hago la siguiente prueba: If (edad > 17 ) { console.log("Es mayor de edad, puede obtener una licencia")} en el caso de que no se cumpla
+la condicion puedo usar la instruccion ELSE que me permite ejecutar una instrucción
+ If (edad > 17 ) { console.log("Es mayor de edad, puede obtener una licencia")} else { console.log("Es menor de edad")};
+
+Valores Booleanos: El valor booleano es una valor que me permite tener dos opciones de dato la primera es TRUE y la segunda es FALSE
+Este tipo de dato me permite hacer preguntas de verdadero o falso, si por ejemplo hago un pregunta ¿Tiene Juan 18 años? entonces puedo reponder TRUE o FALSE.
+Ejemplo: 
+if (edad == 18){
+  return true;
+}else{
+  return false;
+}
+
+Si la edad de juan es 18 me devuelve la función true de los contrario ira a la clausula else que hara que la funcion devuelva false.
+
+
+
+ 

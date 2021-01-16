@@ -1,0 +1,37 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos
+ como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente
+ cualquier agujero en tu comprensión.
+
+* Objetos:
+
+En el lenguaje de programación JavaScript casi “todo” puede ser visto como un objeto. Números, cadenas, arreglos, funciones, datos booleanos, fechas y expresiones regulares son percibidas como objetos o pueden ser tratados como tal. Para entender mejor el concepto de objeto imaginemos que acabamos de comprar un móvil nuevo (el móvil es el objeto). Tiene propiedades como color, peso, tamaño, tamaño de pantalla y marca; también tiene métodos como llamar, tomar una foto, encendido y apagado. Ahora, expliquémoslo a nivel de programación:
+
+Los objetos  son una instancia de una clase
+Las propiedades son una característica, dada en un valor; ya sea tipo String (cadena), matemática, etc
+Los métodos son funciones; y para ejecutarlas utilizamos Callbacks.
+
+* Propiedades:
+
+ Las propiedades de un objeto básicamente son lo mismo que las variables comunes de JavaScript,
+ excepto por el nexo con el objeto. Las propiedades de un objeto definen las características del objeto.
+
+* Métodos:
+
+Los métodos sirven para hacer acciones como una ventana emergente, modificar las propiedades de un objeto,
+añadir elementos a una lista, quitarlos, transformar un string en un número entero o decimal etc.
+
+
+* Bucle `for…in`:
+
+El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces.
+ De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. 
+
+
+* Notación de puntos vs notación de corchetes:
+
+Cuando usamos corchetes podemos acceder a propiedades que tienen un espacio o carácter no permitido en la notación de punto
+(por ejemplo, miMascota.numero del array amigos no es válido, pero miMascota["numero de amigos"] sí lo es).
+Si queremos minificar nuestro código, la notación del punto no es válida... debemos usar la notación de corchetes.
+

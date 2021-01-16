@@ -1,0 +1,26 @@
+# Homework: Javascript II
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones
+ de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te
+ ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`:
+El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces.
+De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute.
+
+* `&&`:
+El operador lógico AND (&&) (conjunción lógica) para un conjunto de operandos es verdadero si y solo si todos sus operandos son verdaderos.
+ Suele utilizarse con valores booleanos (lógicos).
+
+, `||`,:
+
+El operador lógico OR ( || ) devuelve el valor booleano true si uno o ambos operandos son true y  false en caso de que uno o mas sean false.
+
+ `!`:
+
+Retorna false si su único operando es true; de lo contrario, regresa true.
+
+
+

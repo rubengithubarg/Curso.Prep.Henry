@@ -1,0 +1,19 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`:
+Un objeto en JavaScript tiene otro objeto, llamado prototype (prototipo, en español).
+Cuando pedimos a un objeto una propiedad que no tiene, la busca en su prototipo.
+Así, un prototipo es otro objeto que se utiliza como una fuente de propiedades alternativa.
+Prototype es una propiedad de Object, -el objeto del que se derivan todos los demás objetos-,
+y esta propiedad es, a su vez, un objeto. Por tanto, el prototipo último de un objeto es Object.prototype.
+Este prototipo padre tiene métodos que comparten todos los objetos.
+
+* _Constructors_ (de Clases):
+
+El constructor, como su nombre indica, es el código que construye y configura un objeto cuando se crea con new.
+Todas las clases tienen un constructor, si no escribimos nada dentro de class se crea por defecto un constructor vacío.
+Si queremos escribir un constructor por nosotros mismos tenemos que incluir una función llamada constructor dentro del cuerpo de la clase.
